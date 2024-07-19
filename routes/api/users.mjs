@@ -1,5 +1,5 @@
 import express from 'express';
-import bcrypt from 'bcrypjs';
+import bcrypt from 'bcryptjs';
 import jwt from 'jsonwebtoken';
 import {check, validationResult} from 'express-validator';
 import User from '../../models/User.mjs'
