@@ -57,7 +57,7 @@ router.post('/', [
                 name: user.name
             }
         }
-
+        //creating a JWT, signing it, and, if there are no errors, sending token to the front end
         jwt.sign(
             payload,
             process.env.jwtSecret,
